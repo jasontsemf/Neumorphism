@@ -35,9 +35,11 @@ Therefore I wanted to try to make a mood piece, that resembles the aesthetic, in
 ### Process
 
 ![static](screenshots/static.png)
+
 I stated to draw circles in a `<div>` with css. Primarily using `box-shadow` and `border-radius` css properties. The key to make a neumorphic element is to provide it a dark and soft shadow on one side, then another white shadow on the oppostie side.
 
 ![animated](screenshots/animated.gif)
+
 The animated part of it is more complicated. The "inverted" circle is accomplisehd by using `box-shadow inset` instead of normal normal `box-shadow`, which is how inner shadow is made. Also a touch `z-index` move is added to simulate the pressed depth. The animation timing is done with a `cubic-bezier` curve but not simple `ease-in-out`. Then the animation is done in different handlers/stages. in the following order.
 
 ```
@@ -47,6 +49,7 @@ static --> ::after --> :hover --> hover::after
 ```
 
 ![layout](screenshots/layout.png)
+
 Then I layout them out with the vanilla css grid system, but not `Bootstrap`, which is the framework I am used to. What I was trying to accomplish is something different from just normal responsive grid, but an alternating grid, and it is being done with `grid-row` and `grid-col`. I assigned them with numbered row and coloumn class manually to achieve this layout.
 
 ### Struggles
