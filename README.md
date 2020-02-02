@@ -25,6 +25,7 @@ ___
 ### Inspiration
 
 ![UI](https://miro.medium.com/max/1280/1*jfTIh_fkvofLqERYn5aS-Q.jpeg)
+
 There are people saying Neumorphism aka Soft UI will become one of the UI trends in 2020, and I particularly appreciate the visual that defy the standard material design that has been popular for quite a while. Interestingly, I find the style to be reminiscent of how art pieces being exhibited in a gallery.
 
 ![gallery](https://ivc.lib.rochester.edu/wp-content/uploads/2016/05/space-1065750_960_720.png)
