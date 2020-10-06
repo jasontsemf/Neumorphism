@@ -1,6 +1,7 @@
 # Neumorphism
 
 This is the week 1 assignment for the ITP class Dynamic Web Development.
+
 [Live Demo on Glitch](https://jasontsemf-neumorphism.glitch.me/)
 
 ## Up and Running
